@@ -1,0 +1,8 @@
+model,data_type,precision@3,recall@3,f1@3,mrr,ndcg@3
+Boolean,Unstructured,0.2666,0.4667,0.3267,0.64,0.4486
+Vector Space,Unstructured,0.6,0.9,0.7,1.0,0.9226
+BIM,Unstructured,0.6,0.9,0.7,1.0,0.9226
+BM25,Unstructured,0.6,0.9,0.7,1.0,0.9226
+Overlapped Lists,Structured,0.4,0.8,0.52,1.0,0.8452
+Non-Overlapped Lists,Structured,0.5333,1.0,0.68,1.0,0.9679
+Proximal Nodes,Structured,0.4667,0.9,0.6,1.0,0.9066

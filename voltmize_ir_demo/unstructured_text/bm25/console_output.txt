@@ -1,0 +1,37 @@
+MODEL: BM25
+========================================================================
+UQ1 | QUERY: compressor abnormal high energy night shift
+EXPECTED RELEVANT: U01, U06, U11
+  1. U01   score=7.9923
+  2. U06   score=5.2178
+  3. U11   score=4.0005
+  P@3=1.000  R@3=1.000  MRR=1.000  nDCG@3=1.000
+
+UQ2 | QUERY: low power factor motor reactive energy
+EXPECTED RELEVANT: U02, U12
+  1. U12   score=11.0900
+  2. U02   score=9.4677
+  3. U07   score=2.0542
+  P@3=0.667  R@3=1.000  MRR=1.000  nDCG@3=1.000
+
+UQ3 | QUERY: weekend idle consumption no production
+EXPECTED RELEVANT: U08, U15
+  1. U08   score=10.1425
+  2. U03   score=2.6810
+  3. U01   score=2.2883
+  P@3=0.333  R@3=0.500  MRR=1.000  nDCG@3=0.613
+
+UQ4 | QUERY: temperature cooling chiller excess energy
+EXPECTED RELEVANT: U04, U14
+  1. U14   score=8.3316
+  2. U04   score=7.1502
+  3. U08   score=1.5382
+  P@3=0.667  R@3=1.000  MRR=1.000  nDCG@3=1.000
+
+UQ5 | QUERY: missing meter readings communication
+EXPECTED RELEVANT: U10
+  1. U10   score=10.1894
+  2. U15   score=3.9153
+  P@3=0.333  R@3=1.000  MRR=1.000  nDCG@3=1.000
+
+AVERAGE: precision@3=0.600  recall@3=0.900  f1@3=0.700  mrr=1.000  ndcg@3=0.923

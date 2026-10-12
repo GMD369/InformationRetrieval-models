@@ -1,0 +1,42 @@
+[
+  {
+    "id": "UQ1",
+    "text": "compressor abnormal high energy night shift",
+    "relevant": [
+      "U01",
+      "U06",
+      "U11"
+    ]
+  },
+  {
+    "id": "UQ2",
+    "text": "low power factor motor reactive energy",
+    "relevant": [
+      "U02",
+      "U12"
+    ]
+  },
+  {
+    "id": "UQ3",
+    "text": "weekend idle consumption no production",
+    "relevant": [
+      "U08",
+      "U15"
+    ]
+  },
+  {
+    "id": "UQ4",
+    "text": "temperature cooling chiller excess energy",
+    "relevant": [
+      "U04",
+      "U14"
+    ]
+  },
+  {
+    "id": "UQ5",
+    "text": "missing meter readings communication",
+    "relevant": [
+      "U10"
+    ]
+  }
+]

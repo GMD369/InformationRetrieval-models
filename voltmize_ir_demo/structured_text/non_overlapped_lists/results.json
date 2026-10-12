@@ -1,0 +1,171 @@
+{
+  "model": "Non-Overlapped Lists",
+  "query_count": 5,
+  "aggregate": {
+    "precision@3": 0.5333,
+    "recall@3": 1.0,
+    "f1@3": 0.68,
+    "mrr": 1.0,
+    "ndcg@3": 0.9679
+  },
+  "queries": [
+    {
+      "query_id": "SQ1",
+      "query": "night shift compressor high energy cause action",
+      "relevant": [
+        "S01",
+        "S02"
+      ],
+      "top_results": [
+        {
+          "rank": 1,
+          "document": "S01",
+          "score": 0.7143
+        },
+        {
+          "rank": 2,
+          "document": "S03",
+          "score": 0.4286
+        },
+        {
+          "rank": 3,
+          "document": "S02",
+          "score": 0.2857
+        }
+      ],
+      "metrics": {
+        "precision@3": 0.6667,
+        "recall@3": 1.0,
+        "f1@3": 0.8,
+        "mrr": 1.0,
+        "ndcg@3": 0.9197
+      }
+    },
+    {
+      "query_id": "SQ2",
+      "query": "low power factor reactive motor capacitor",
+      "relevant": [
+        "S03"
+      ],
+      "top_results": [
+        {
+          "rank": 1,
+          "document": "S03",
+          "score": 1.0
+        },
+        {
+          "rank": 2,
+          "document": "S01",
+          "score": 0.1667
+        },
+        {
+          "rank": 3,
+          "document": "S09",
+          "score": 0.1667
+        }
+      ],
+      "metrics": {
+        "precision@3": 0.3333,
+        "recall@3": 1.0,
+        "f1@3": 0.5,
+        "mrr": 1.0,
+        "ndcg@3": 1.0
+      }
+    },
+    {
+      "query_id": "SQ3",
+      "query": "weekend no production shutdown consumption",
+      "relevant": [
+        "S04",
+        "S12"
+      ],
+      "top_results": [
+        {
+          "rank": 1,
+          "document": "S04",
+          "score": 1.0
+        },
+        {
+          "rank": 2,
+          "document": "S12",
+          "score": 0.6
+        },
+        {
+          "rank": 3,
+          "document": "S01",
+          "score": 0.4
+        }
+      ],
+      "metrics": {
+        "precision@3": 0.6667,
+        "recall@3": 1.0,
+        "f1@3": 0.8,
+        "mrr": 1.0,
+        "ndcg@3": 1.0
+      }
+    },
+    {
+      "query_id": "SQ4",
+      "query": "temperature chiller excess energy cause",
+      "relevant": [
+        "S05",
+        "S06"
+      ],
+      "top_results": [
+        {
+          "rank": 1,
+          "document": "S06",
+          "score": 0.8
+        },
+        {
+          "rank": 2,
+          "document": "S11",
+          "score": 0.6
+        },
+        {
+          "rank": 3,
+          "document": "S05",
+          "score": 0.4
+        }
+      ],
+      "metrics": {
+        "precision@3": 0.6667,
+        "recall@3": 1.0,
+        "f1@3": 0.8,
+        "mrr": 1.0,
+        "ndcg@3": 0.9197
+      }
+    },
+    {
+      "query_id": "SQ5",
+      "query": "missing meter readings communication action",
+      "relevant": [
+        "S07"
+      ],
+      "top_results": [
+        {
+          "rank": 1,
+          "document": "S07",
+          "score": 0.8
+        },
+        {
+          "rank": 2,
+          "document": "S12",
+          "score": 0.4
+        },
+        {
+          "rank": 3,
+          "document": "S04",
+          "score": 0.2
+        }
+      ],
+      "metrics": {
+        "precision@3": 0.3333,
+        "recall@3": 1.0,
+        "f1@3": 0.5,
+        "mrr": 1.0,
+        "ndcg@3": 1.0
+      }
+    }
+  ]
+}

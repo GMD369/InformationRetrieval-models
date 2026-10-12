@@ -1,0 +1,40 @@
+[
+  {
+    "id": "SQ1",
+    "text": "night shift compressor high energy cause action",
+    "relevant": [
+      "S01",
+      "S02"
+    ]
+  },
+  {
+    "id": "SQ2",
+    "text": "low power factor reactive motor capacitor",
+    "relevant": [
+      "S03"
+    ]
+  },
+  {
+    "id": "SQ3",
+    "text": "weekend no production shutdown consumption",
+    "relevant": [
+      "S04",
+      "S12"
+    ]
+  },
+  {
+    "id": "SQ4",
+    "text": "temperature chiller excess energy cause",
+    "relevant": [
+      "S05",
+      "S06"
+    ]
+  },
+  {
+    "id": "SQ5",
+    "text": "missing meter readings communication action",
+    "relevant": [
+      "S07"
+    ]
+  }
+]

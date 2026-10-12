@@ -1,0 +1,38 @@
+MODEL: Non-Overlapped Lists
+========================================================================
+SQ1 | QUERY: night shift compressor high energy cause action
+EXPECTED RELEVANT: S01, S02
+  1. S01   score=0.7143
+  2. S03   score=0.4286
+  3. S02   score=0.2857
+  P@3=0.667  R@3=1.000  MRR=1.000  nDCG@3=0.920
+
+SQ2 | QUERY: low power factor reactive motor capacitor
+EXPECTED RELEVANT: S03
+  1. S03   score=1.0000
+  2. S01   score=0.1667
+  3. S09   score=0.1667
+  P@3=0.333  R@3=1.000  MRR=1.000  nDCG@3=1.000
+
+SQ3 | QUERY: weekend no production shutdown consumption
+EXPECTED RELEVANT: S04, S12
+  1. S04   score=1.0000
+  2. S12   score=0.6000
+  3. S01   score=0.4000
+  P@3=0.667  R@3=1.000  MRR=1.000  nDCG@3=1.000
+
+SQ4 | QUERY: temperature chiller excess energy cause
+EXPECTED RELEVANT: S05, S06
+  1. S06   score=0.8000
+  2. S11   score=0.6000
+  3. S05   score=0.4000
+  P@3=0.667  R@3=1.000  MRR=1.000  nDCG@3=0.920
+
+SQ5 | QUERY: missing meter readings communication action
+EXPECTED RELEVANT: S07
+  1. S07   score=0.8000
+  2. S12   score=0.4000
+  3. S04   score=0.2000
+  P@3=0.333  R@3=1.000  MRR=1.000  nDCG@3=1.000
+
+AVERAGE: precision@3=0.533  recall@3=1.000  f1@3=0.680  mrr=1.000  ndcg@3=0.968

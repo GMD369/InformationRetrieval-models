@@ -1,0 +1,168 @@
+{
+  "model": "Boolean OR (unranked)",
+  "query_count": 5,
+  "aggregate": {
+    "precision@3": 0.2666,
+    "recall@3": 0.4667,
+    "f1@3": 0.3267,
+    "mrr": 0.64,
+    "ndcg@3": 0.4486
+  },
+  "queries": [
+    {
+      "query_id": "UQ1",
+      "query": "compressor abnormal high energy night shift",
+      "relevant": [
+        "U01",
+        "U06",
+        "U11"
+      ],
+      "top_results": [
+        {
+          "rank": 1,
+          "document": "U01",
+          "score": 1.0
+        },
+        {
+          "rank": 2,
+          "document": "U02",
+          "score": 1.0
+        },
+        {
+          "rank": 3,
+          "document": "U03",
+          "score": 1.0
+        }
+      ],
+      "metrics": {
+        "precision@3": 0.3333,
+        "recall@3": 0.3333,
+        "f1@3": 0.3333,
+        "mrr": 1.0,
+        "ndcg@3": 0.4693
+      }
+    },
+    {
+      "query_id": "UQ2",
+      "query": "low power factor motor reactive energy",
+      "relevant": [
+        "U02",
+        "U12"
+      ],
+      "top_results": [
+        {
+          "rank": 1,
+          "document": "U01",
+          "score": 1.0
+        },
+        {
+          "rank": 2,
+          "document": "U02",
+          "score": 1.0
+        },
+        {
+          "rank": 3,
+          "document": "U04",
+          "score": 1.0
+        }
+      ],
+      "metrics": {
+        "precision@3": 0.3333,
+        "recall@3": 0.5,
+        "f1@3": 0.4,
+        "mrr": 0.5,
+        "ndcg@3": 0.3869
+      }
+    },
+    {
+      "query_id": "UQ3",
+      "query": "weekend idle consumption no production",
+      "relevant": [
+        "U08",
+        "U15"
+      ],
+      "top_results": [
+        {
+          "rank": 1,
+          "document": "U01",
+          "score": 1.0
+        },
+        {
+          "rank": 2,
+          "document": "U03",
+          "score": 1.0
+        },
+        {
+          "rank": 3,
+          "document": "U04",
+          "score": 1.0
+        }
+      ],
+      "metrics": {
+        "precision@3": 0.0,
+        "recall@3": 0.0,
+        "f1@3": 0.0,
+        "mrr": 0.2,
+        "ndcg@3": 0.0
+      }
+    },
+    {
+      "query_id": "UQ4",
+      "query": "temperature cooling chiller excess energy",
+      "relevant": [
+        "U04",
+        "U14"
+      ],
+      "top_results": [
+        {
+          "rank": 1,
+          "document": "U01",
+          "score": 1.0
+        },
+        {
+          "rank": 2,
+          "document": "U04",
+          "score": 1.0
+        },
+        {
+          "rank": 3,
+          "document": "U05",
+          "score": 1.0
+        }
+      ],
+      "metrics": {
+        "precision@3": 0.3333,
+        "recall@3": 0.5,
+        "f1@3": 0.4,
+        "mrr": 0.5,
+        "ndcg@3": 0.3869
+      }
+    },
+    {
+      "query_id": "UQ5",
+      "query": "missing meter readings communication",
+      "relevant": [
+        "U10"
+      ],
+      "top_results": [
+        {
+          "rank": 1,
+          "document": "U10",
+          "score": 1.0
+        },
+        {
+          "rank": 2,
+          "document": "U15",
+          "score": 1.0
+        }
+      ],
+      "metrics": {
+        "precision@3": 0.3333,
+        "recall@3": 1.0,
+        "f1@3": 0.5,
+        "mrr": 1.0,
+        "ndcg@3": 1.0
+      }
+    }
+  ]
+}

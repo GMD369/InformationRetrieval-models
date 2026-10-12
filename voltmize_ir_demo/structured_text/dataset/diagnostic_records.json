@@ -1,0 +1,110 @@
+[
+  {
+    "id": "S01",
+    "equipment": "Compressor-1",
+    "summary": "High energy during night shift",
+    "symptoms": "power 94 kW; idle production; repeated cycling",
+    "meter_context": "night shift; total consumption 488 kWh",
+    "probable_cause": "unload valve leakage",
+    "action": "inspect valve and reduce pressure setpoint"
+  },
+  {
+    "id": "S02",
+    "equipment": "Compressor-2",
+    "summary": "Off-hours compressor consumption",
+    "symptoms": "cycling after shift; falling air pressure",
+    "meter_context": "evening shift; 166 excess kWh",
+    "probable_cause": "compressed air leak",
+    "action": "repair pipe near dyeing section"
+  },
+  {
+    "id": "S03",
+    "equipment": "Motor-MTR-21",
+    "summary": "Low motor power factor",
+    "symptoms": "power factor 0.68; reactive current high",
+    "meter_context": "morning shift; reactive energy 82 kvarh",
+    "probable_cause": "capacitor bank disconnected",
+    "action": "reconnect capacitor bank"
+  },
+  {
+    "id": "S04",
+    "equipment": "Oven-1",
+    "summary": "Weekend idle energy",
+    "symptoms": "standby heat; no production",
+    "meter_context": "Sunday; total consumption 310 kWh",
+    "probable_cause": "shutdown schedule missing",
+    "action": "apply weekend shutdown rule"
+  },
+  {
+    "id": "S05",
+    "equipment": "Chiller-2",
+    "summary": "Expected hot-weather cooling load",
+    "symptoms": "long runtime; stable temperature",
+    "meter_context": "ambient 39 C; high production",
+    "probable_cause": "normal weather-driven demand",
+    "action": "no maintenance required"
+  },
+  {
+    "id": "S06",
+    "equipment": "Cold-Room-1",
+    "summary": "Excess overnight cooling energy",
+    "symptoms": "temperature drift; continuous chiller runtime",
+    "meter_context": "night; 27 percent energy increase",
+    "probable_cause": "damaged door seal",
+    "action": "replace seal and verify temperature"
+  },
+  {
+    "id": "S07",
+    "equipment": "Main-Meter",
+    "summary": "Missing meter readings",
+    "symptoms": "eighteen minute data gap",
+    "meter_context": "all phases absent; ingestion quality failed",
+    "probable_cause": "gateway communication loss",
+    "action": "check network and backfill readings"
+  },
+  {
+    "id": "S08",
+    "equipment": "Conveyor-CV07",
+    "summary": "Rising current and energy spikes",
+    "symptoms": "current trend rising; vibration",
+    "meter_context": "day shift; repeated 8 kW spikes",
+    "probable_cause": "worn conveyor bearing",
+    "action": "replace bearing and inspect alignment"
+  },
+  {
+    "id": "S09",
+    "equipment": "Loom-Bank-03",
+    "summary": "Voltage imbalance",
+    "symptoms": "phase B current high; motor heating",
+    "meter_context": "voltage unbalance 4.2 percent",
+    "probable_cause": "uneven phase loading",
+    "action": "rebalance phases"
+  },
+  {
+    "id": "S10",
+    "equipment": "Welding-Bay-2",
+    "summary": "Peak demand event",
+    "symptoms": "simultaneous welder startup",
+    "meter_context": "peak demand 214 kW; short duration",
+    "probable_cause": "unstaggered startup",
+    "action": "stagger welding schedule"
+  },
+  {
+    "id": "S11",
+    "equipment": "Injection-Moulder-04",
+    "summary": "Persistent heater energy anomaly",
+    "symptoms": "barrel temperature overshoot; high power",
+    "meter_context": "three batches; 21 percent excess energy",
+    "probable_cause": "heater thermostat failure",
+    "action": "replace thermostat"
+  },
+  {
+    "id": "S12",
+    "equipment": "Factory-Textile",
+    "summary": "Planned shutdown low load",
+    "symptoms": "near-zero readings across meters",
+    "meter_context": "maintenance calendar; no production",
+    "probable_cause": "scheduled shutdown",
+    "action": "suppress anomaly alert"
+  }
+]

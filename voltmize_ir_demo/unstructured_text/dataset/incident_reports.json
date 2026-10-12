@@ -1,0 +1,77 @@
+[
+  {
+    "id": "U01",
+    "title": "Compressor-1 night shift anomaly",
+    "text": "During the night shift Compressor-1 drew unusually high energy. Power stayed above 92 kW while production was idle. Inspect unload valve leakage and the pressure setpoint."
+  },
+  {
+    "id": "U02",
+    "title": "Boiler feed pump power factor",
+    "text": "Boiler feed pump MTR-21 showed low power factor of 0.68 and increased reactive power during the morning shift. Check capacitor bank and motor loading."
+  },
+  {
+    "id": "U03",
+    "title": "Packaging line normal operation",
+    "text": "Packaging Line-2 consumed 41 kWh during the day shift. Load followed the production schedule and no anomaly was detected."
+  },
+  {
+    "id": "U04",
+    "title": "Chiller temperature-driven load",
+    "text": "Cold-store Chiller-2 energy increased during a hot afternoon. Ambient temperature was 39 C and cooling production was high, so the expected-load model marked it normal."
+  },
+  {
+    "id": "U05",
+    "title": "Conveyor bearing warning",
+    "text": "Conveyor CV-07 current rose gradually with repeated energy spikes. Maintenance found a worn bearing creating mechanical drag and replaced it."
+  },
+  {
+    "id": "U06",
+    "title": "Air leak after production",
+    "text": "Compressor-2 kept cycling after the evening shift ended. Abnormal off-hours consumption was traced to a compressed-air leak near the dyeing section."
+  },
+  {
+    "id": "U07",
+    "title": "Textile loom voltage imbalance",
+    "text": "Loom bank LB-03 reported phase voltage imbalance and elevated current on phase B. The event caused motor heating but only a small energy increase."
+  },
+  {
+    "id": "U08",
+    "title": "Idle oven weekend waste",
+    "text": "Baking Oven-1 remained at standby temperature on Sunday with no production. Weekend idle consumption reached 310 kWh; shutdown scheduling was recommended."
+  },
+  {
+    "id": "U09",
+    "title": "Injection moulding heater fault",
+    "text": "Injection Moulder IM-04 used high power because a barrel heater thermostat failed. Energy remained elevated across three production batches."
+  },
+  {
+    "id": "U10",
+    "title": "Meter communication gap",
+    "text": "Main meter M-00 stopped reporting for eighteen minutes. The ingestion quality check flagged missing readings; this was a communication issue, not an energy anomaly."
+  },
+  {
+    "id": "U11",
+    "title": "Compressor pressure setpoint",
+    "text": "Compressor-1 total consumption increased by 18 percent after the pressure setpoint was raised for night production. Resetting pressure reduced kWh without affecting output."
+  },
+  {
+    "id": "U12",
+    "title": "Motor power factor correction",
+    "text": "Motor MTR-09 had low power factor and high reactive energy. After capacitor correction, current fell and monthly demand charges were reduced."
+  },
+  {
+    "id": "U13",
+    "title": "Welding peak demand",
+    "text": "Welding Bay-2 created a short peak-demand event when several welders started together. Staggered startup was recommended to lower the demand peak."
+  },
+  {
+    "id": "U14",
+    "title": "Cold room door loss",
+    "text": "Cold Room CR-1 consumed excess energy overnight because a door seal was damaged. Chiller runtime and temperature deviations confirmed the cooling loss."
+  },
+  {
+    "id": "U15",
+    "title": "Scheduled maintenance shutdown",
+    "text": "All production meters showed near-zero load during the planned maintenance shutdown. The calendar context explains the readings and prevents a false anomaly alert."
+  }
+]

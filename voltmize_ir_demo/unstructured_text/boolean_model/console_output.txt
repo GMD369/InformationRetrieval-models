@@ -1,0 +1,37 @@
+MODEL: Boolean OR (unranked)
+========================================================================
+UQ1 | QUERY: compressor abnormal high energy night shift
+EXPECTED RELEVANT: U01, U06, U11
+  1. U01   score=1.0000
+  2. U02   score=1.0000
+  3. U03   score=1.0000
+  P@3=0.333  R@3=0.333  MRR=1.000  nDCG@3=0.469
+
+UQ2 | QUERY: low power factor motor reactive energy
+EXPECTED RELEVANT: U02, U12
+  1. U01   score=1.0000
+  2. U02   score=1.0000
+  3. U04   score=1.0000
+  P@3=0.333  R@3=0.500  MRR=0.500  nDCG@3=0.387
+
+UQ3 | QUERY: weekend idle consumption no production
+EXPECTED RELEVANT: U08, U15
+  1. U01   score=1.0000
+  2. U03   score=1.0000
+  3. U04   score=1.0000
+  P@3=0.000  R@3=0.000  MRR=0.200  nDCG@3=0.000
+
+UQ4 | QUERY: temperature cooling chiller excess energy
+EXPECTED RELEVANT: U04, U14
+  1. U01   score=1.0000
+  2. U04   score=1.0000
+  3. U05   score=1.0000
+  P@3=0.333  R@3=0.500  MRR=0.500  nDCG@3=0.387
+
+UQ5 | QUERY: missing meter readings communication
+EXPECTED RELEVANT: U10
+  1. U10   score=1.0000
+  2. U15   score=1.0000
+  P@3=0.333  R@3=1.000  MRR=1.000  nDCG@3=1.000
+
+AVERAGE: precision@3=0.267  recall@3=0.467  f1@3=0.327  mrr=0.640  ndcg@3=0.449
